@@ -1,0 +1,105 @@
+site_name: Turing Eating
+
+# Navigation
+nav:
+  - 关于: 
+    - 简介: index.md
+    - 贡献: './contribution.md'
+    - 贡献者: './contributors.md'
+    - 成为一个合格的美食评论者: be-qualified.md
+    - 更新日志: changelog.md
+    - 技术信息:
+      - 许可证: LICENSE.md
+      - 第三方许可证: tech/3rd-party-license.md
+      - TOS: tech/TOS.md
+      - Privacy: tech/Privacy.md
+  - 校内食堂: 
+    - 紫金港校区: 
+      - 食天一隅: inside/zjg/shitianyiyu.md
+      - 玉湖餐厅一楼: inside/zjg/yuhu-f1.md
+      - 休闲餐厅: inside/zjg/xiuxian.md
+      - 风味餐厅: inside/zjg/fengwei.md
+      - 民族餐厅: inside/zjg/mingzu.md
+      - 东区餐厅: inside/zjg/dongqu.md
+      - 西区餐厅: inside/zjg/xiqi.md
+      - 三楼餐厅: inside/zjg/sanlou.md
+      - 临湖餐厅: inside/zjg/linghu.md
+      - 麦香餐厅: inside/zjg/maixiang.md
+      - 澄月餐厅一楼: inside/zjg/chengyue-f1.md
+      - 澄月餐厅二楼: inside/zjg/chengyue-f2.md
+      - 玉湖餐厅二楼: inside/zjg/yuhu-f2.md
+      - 银泉餐厅一楼: inside/zjg/yinquan-f1.md
+      - 银泉餐厅二楼: inside/zjg/yinquan-f2.md
+      - 银泉 小乐惠: inside/zjg/yinquan-xiaolehui.md
+    - 玉泉校区:
+      - 第一食堂: inside/yuquan/1.md
+      - 第四食堂: inside/yuquan/4-f1.md
+      - 第四食堂二楼: inside/yuquan/4-f2.md
+      - 怡膳堂: inside/yuquan/yishan.md
+      - 第五食堂: inside/yuquan/5.md
+      - 靓园: inside/yuquan/liangyuan.md
+      - 第二食堂一楼（麦思威餐厅）: inside/yuquan/2-f1-mys.md
+      - 第二食堂一楼生活空间: inside/yuquan/2-f1-life.md
+      - 第二食堂二楼: inside/yuquan/2-f2.md
+      - 民族餐厅: inside/yuquan/trandition.md
+      - 小乐惠餐厅: inside/yuquan/xiaolehui.md
+    - 西溪校区: 
+      - 第一食堂: inside/xixi/1.md
+      - 第二食堂: inside/xixi/2.md
+      - 美食坊: inside/xixi/meishifang.md
+      - 西溪民族餐厅: inside/xixi/mingzu.md
+    - 之江校区: 
+      - 之江食堂: inside/zhijiang/main.md
+    - 华家池校区: 
+      - 第二食堂（原第五食堂）: inside/huajiachi/2.md
+      - 华家池校区第一食堂: inside/huajiachi/1.md
+    - 海宁国际校区: 
+      - 海宁食堂一楼: inside/haining/f1.md
+      - 海宁食堂二楼: inside/haining/f2.md
+      - 海宁校区民族餐厅: inside/haining/tradition.md
+    - 舟山校区: 
+      - 舟山校区食堂: inside/zhoushan/main.md
+    - 麦斯威:
+      - 麦思威图书馆主馆店: inside/mysweet/1.md
+      - 麦思威银泉店: inside/mysweet/2.md
+      - 麦思威文韵丹青店: inside/mysweet/3.md
+      - 麦思威水墨云峰店: inside/mysweet/4.md
+      - 麦思威博雅蓝田店: inside/mysweet/5.md
+      - 东二麦思威咖啡吧旗舰店: inside/mysweet/6.md
+      - 麦思威东一茶吧: inside/mysweet/7.md
+      - 麦思威基础图书馆一楼店: inside/mysweet/8.md
+      - 麦思威外语学院店: inside/mysweet/9.md
+      - 麦思威校友楼店: inside/mysweet/10.md
+      - 麦思威西一教学楼店: inside/mysweet/11.md
+      - 麦思威生仪学院店: inside/mysweet/12.md
+      - 艺术与考古博物馆店: inside/mysweet/13.md
+      - 段永平教学楼店: inside/mysweet/14.md
+      - 计算机学院店: inside/mysweet/15.md
+      - 李作权学生活动中心店: inside/mysweet/16.md
+
+  - 校外商铺:
+    - 堕落街专区: outside/longyu.md
+    - 西溪银泰专区: outside/yintai.md
+    - 西溪龙湖天街专区: outside/tianjie.md
+    - 西站交通枢纽专区: outside/west.md
+    - 东站交通枢纽专区: outside/east.md
+    - 萧山机场交通枢纽专区: outside/airport.md
+    - 城站交通枢纽专区: outside/city.md
+    - 其他商铺: outside/others.md
+
+repo_url: https://github.com/5dbwat4/turing-eating
+copyright: Copyright 2024-Now 5dbwat4, and, All members of ZJU-Turing
+
+# Theme
+theme:
+  name: material
+  custom_dir: overrides  
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
