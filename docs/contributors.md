@@ -1,7 +1,7 @@
 # 贡献者列表
 
 - [5dbwat4](https://github.com/5dbwat4) - 架构 & Workflow & 基本信息录入
-- AlabTNT -
+- AlabTNT - 校外餐厅信息
 
 ## 其他Turing Eating群成员
 
